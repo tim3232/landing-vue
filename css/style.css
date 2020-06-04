@@ -1,0 +1,62 @@
+.row{
+    margin-bottom: 10px;
+}
+
+.semi-transparent-button {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: #fff; /* запасной цвет для старых браузеров */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+
+.col-md-4 img{
+    max-height: 320px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+    height: 180px;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+
+.row.image-row{
+    padding: 5px;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #d5d5f7;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background-color: #3c8aa3;
+}
