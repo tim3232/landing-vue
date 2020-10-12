@@ -1,4 +1,4 @@
-# landing-vue
+# landing-vue (no OOP)
 Landing Page for AutoSales. Html, CSS, Vue.js, PHP, MySql (no OOP)
 ![1](https://user-images.githubusercontent.com/46631604/83744187-6e8e9580-a664-11ea-82d1-4e2e79dc2a8f.png)
 Change post(only image)
